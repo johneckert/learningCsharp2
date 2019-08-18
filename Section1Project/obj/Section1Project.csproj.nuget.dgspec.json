@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/John/Development/C# Learning/Section1Project/Section1Project.csproj": {}
+  },
+  "projects": {
+    "/Users/John/Development/C# Learning/Section1Project/Section1Project.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/John/Development/C# Learning/Section1Project/Section1Project.csproj",
+        "projectName": "Section1Project",
+        "projectPath": "/Users/John/Development/C# Learning/Section1Project/Section1Project.csproj",
+        "packagesPath": "/Users/John/.nuget/packages/",
+        "outputPath": "/Users/John/Development/C# Learning/Section1Project/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/John/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

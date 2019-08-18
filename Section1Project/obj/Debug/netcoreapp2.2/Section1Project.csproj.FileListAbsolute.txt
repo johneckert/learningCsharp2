@@ -1,0 +1,11 @@
+/Users/John/Development/C# Learning/Section1Project/bin/Debug/netcoreapp2.2/Section1Project.deps.json
+/Users/John/Development/C# Learning/Section1Project/bin/Debug/netcoreapp2.2/Section1Project.runtimeconfig.json
+/Users/John/Development/C# Learning/Section1Project/bin/Debug/netcoreapp2.2/Section1Project.runtimeconfig.dev.json
+/Users/John/Development/C# Learning/Section1Project/bin/Debug/netcoreapp2.2/Section1Project.dll
+/Users/John/Development/C# Learning/Section1Project/bin/Debug/netcoreapp2.2/Section1Project.pdb
+/Users/John/Development/C# Learning/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.csprojAssemblyReference.cache
+/Users/John/Development/C# Learning/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.csproj.CoreCompileInputs.cache
+/Users/John/Development/C# Learning/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.AssemblyInfoInputs.cache
+/Users/John/Development/C# Learning/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.AssemblyInfo.cs
+/Users/John/Development/C# Learning/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.dll
+/Users/John/Development/C# Learning/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.pdb
