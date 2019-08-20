@@ -13,35 +13,45 @@ namespace Section1Project
 
       while (cont)
       {
-        Console.WriteLine("Are you a teacher? y/n");
-        if (Console.ReadLine() != "y")
+        try
         {
-          var newStudent = new Student();
-          newStudent.Name = Util.Console.Ask("Name:");
-          newStudent.Grade = int.Parse(Util.Console.Ask("Grade:"));
-          newStudent.Birthday = Util.Console.Ask("DOB:");
-          newStudent.Address = Util.Console.Ask("Address:");
-          newStudent.Phone = int.Parse(Util.Console.Ask("Phone:"));
-          Students.Add(newStudent);
+          Console.WriteLine("Are you a teacher? y/n");
+          if (Console.ReadLine() != "y")
+          {
+            var newStudent = new Student();
+            newStudent.Name = Util.Console.Ask("Name:");
+            var result = int.TryParse(Util.Console.Ask("Grade:"), out newStudent.Grade);
+            while (!result)
+            {
+              result = int.TryParse(Util.Console.Ask("Grade:"), out newStudent.Grade);
+            }
+            newStudent.Birthday = Util.Console.Ask("DOB:");
+            newStudent.Address = Util.Console.Ask("Address:");
+            newStudent.Phone = int.Parse(Util.Console.Ask("Phone:"));
+            Students.Add(newStudent);
 
-        }
-        else
-        {
-          var newTeacher = new Teacher();
-          newTeacher.Name = Util.Console.Ask("Name:");
-          newTeacher.Subject = Util.Console.Ask("Subject:");
-          newTeacher.Address = Util.Console.Ask("Address:");
-          newTeacher.Phone = int.Parse(Util.Console.Ask("Phone:"));
-          Teachers.Add(newTeacher);
-        }
+          }
+          else
+          {
+            var newTeacher = new Teacher();
+            newTeacher.Name = Util.Console.Ask("Name:");
+            newTeacher.Subject = Util.Console.Ask("Subject:");
+            newTeacher.Address = Util.Console.Ask("Address:");
+            newTeacher.Phone = int.Parse(Util.Console.Ask("Phone:"));
+            Teachers.Add(newTeacher);
+          }
 
-        Console.WriteLine("Add another Person? (y/n)");
-        if (Console.ReadLine() != "y")
+          Console.WriteLine("Add another Person? (y/n)");
+          if (Console.ReadLine() != "y")
+          {
+            cont = false;
+          };
+        }
+        catch (Exception)
         {
-          cont = false;
-        };
+          Console.WriteLine("Nooope");
+        }
       }
-
       foreach (var student in Students)
       {
         student.Display();
