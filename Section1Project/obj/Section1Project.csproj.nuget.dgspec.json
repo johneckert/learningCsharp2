@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/John/Development/C# Learning/Section1Project/Section1Project.csproj": {}
+    "/Users/johneckert/Code/learningCsharp2/Section1Project/Section1Project.csproj": {}
   },
   "projects": {
-    "/Users/John/Development/C# Learning/Section1Project/Section1Project.csproj": {
+    "/Users/johneckert/Code/learningCsharp2/Section1Project/Section1Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/John/Development/C# Learning/Section1Project/Section1Project.csproj",
+        "projectUniqueName": "/Users/johneckert/Code/learningCsharp2/Section1Project/Section1Project.csproj",
         "projectName": "Section1Project",
-        "projectPath": "/Users/John/Development/C# Learning/Section1Project/Section1Project.csproj",
-        "packagesPath": "/Users/John/.nuget/packages/",
-        "outputPath": "/Users/John/Development/C# Learning/Section1Project/obj/",
+        "projectPath": "/Users/johneckert/Code/learningCsharp2/Section1Project/Section1Project.csproj",
+        "packagesPath": "/Users/johneckert/.nuget/packages/",
+        "outputPath": "/Users/johneckert/Code/learningCsharp2/Section1Project/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/John/.nuget/NuGet/NuGet.Config"
+          "/Users/johneckert/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"

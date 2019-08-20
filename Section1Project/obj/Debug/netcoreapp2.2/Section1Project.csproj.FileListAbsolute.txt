@@ -9,3 +9,14 @@
 /Users/John/Development/C# Learning/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.AssemblyInfo.cs
 /Users/John/Development/C# Learning/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.dll
 /Users/John/Development/C# Learning/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.pdb
+/Users/johneckert/Code/learningCsharp2/Section1Project/bin/Debug/netcoreapp2.2/Section1Project.deps.json
+/Users/johneckert/Code/learningCsharp2/Section1Project/bin/Debug/netcoreapp2.2/Section1Project.runtimeconfig.json
+/Users/johneckert/Code/learningCsharp2/Section1Project/bin/Debug/netcoreapp2.2/Section1Project.runtimeconfig.dev.json
+/Users/johneckert/Code/learningCsharp2/Section1Project/bin/Debug/netcoreapp2.2/Section1Project.dll
+/Users/johneckert/Code/learningCsharp2/Section1Project/bin/Debug/netcoreapp2.2/Section1Project.pdb
+/Users/johneckert/Code/learningCsharp2/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.csprojAssemblyReference.cache
+/Users/johneckert/Code/learningCsharp2/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.csproj.CoreCompileInputs.cache
+/Users/johneckert/Code/learningCsharp2/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.AssemblyInfoInputs.cache
+/Users/johneckert/Code/learningCsharp2/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.AssemblyInfo.cs
+/Users/johneckert/Code/learningCsharp2/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.dll
+/Users/johneckert/Code/learningCsharp2/Section1Project/obj/Debug/netcoreapp2.2/Section1Project.pdb
